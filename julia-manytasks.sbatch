@@ -8,6 +8,7 @@
 set -euxo pipefail
 
 module load slurm
+module load julia
 
 pwd
 echo "SLURM_JOB_ID=$SLURM_JOB_ID"

@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=python-multiproc
 #SBATCH --nodes=1
+#SBATCH --ntasks=10
 #SBATCH --output=/home/btimar/data/python-multiproc.out
 #SBATCH --time=0:01:00
 

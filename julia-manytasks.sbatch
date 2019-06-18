@@ -2,7 +2,7 @@
 #SBATCH --job-name=julia-manytasks
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-core=1
-#SBATCH --output=/home/eschnetter/src/c/julia-manytasks.out
+#SBATCH --output=/home/btimar/data/julia-manytasks.out
 #SBATCH --time=0:10:00
 
 set -euxo pipefail

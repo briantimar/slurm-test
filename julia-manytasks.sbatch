@@ -3,7 +3,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-core=1
 #SBATCH --output=/home/btimar/data/julia-manytasks.out
-#SBATCH --time=0:10:00
+#SBATCH --time=0:00:10
 
 set -euxo pipefail
 

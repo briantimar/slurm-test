@@ -2,7 +2,7 @@ from multiprocessing import Pool, Process
 import time
 
 ncore = 10
-dt = 10
+dt = 30
 
 def use_core(i):
     print("Starting %d"%i)
